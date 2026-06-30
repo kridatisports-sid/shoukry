@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Club Registration</title>
+<style>
+body{font-family:Arial;background:#0f172a;color:white;padding:30px}
+form{max-width:700px;margin:auto;background:#1e293b;padding:30px;border-radius:10px}
+input,select{width:100%;padding:12px;margin-bottom:15px}
+button{padding:12px 20px;background:#f59e0b;border:none;font-weight:bold}
+</style>
+</head>
+<body>
+
+<h1>Club Registration</h1>
+
+<form action="https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec" method="POST">
+
+<input type="text" name="club_name" placeholder="Club Name" required>
+<input type="text" name="manager_name" placeholder="Manager Name" required>
+<input type="text" name="coach_name" placeholder="Coach Name" required>
+<input type="email" name="email" placeholder="Email" required>
+<input type="text" name="phone" placeholder="Phone Number" required>
+
+<select name="category">
+<option>U13</option>
+<option>U15</option>
+</select>
+
+<button type="submit">Submit Registration</button>
+
+</form>
+
+</body>
+</html>
